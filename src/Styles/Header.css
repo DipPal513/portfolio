@@ -1,0 +1,20 @@
+.navbar-dark .navbar-toggler {
+    color: #000 !important;
+    border:none;
+}
+.navbar-toggler:hover{
+    border: 0;
+    outline: 0;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:none !important;
+}
+.navbar-dark .navbar-toggler{
+    border:none;
+
+}
+.navbar-toggler-icon{
+    background-image: url(https://w7.pngwing.com/pngs/833/991/png-transparent-hamburger-button-menu-brunch-menu-angle-material-share-icon.png);
+}
