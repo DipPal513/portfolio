@@ -8,12 +8,59 @@ body {
 
 }
 :root{
-  --main-color:#b73361 !important;
+  --main-color:#ffb400 !important;
 }
 *{
   font-family:'Nunito Sans', sans-serif !important;
 }
 /* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: soaurce-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+/* button code */
+.my-btn{
+  position: relative;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid var(--main-color);
+  padding: 12px 30px;
+  transition: .3s ease;
+}
+.my-btn:hover{
+  color: white;
+}
+.my-btn:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--main-color);
+  z-index: -1;
+  transition: width .3s ease;
+}
+.my-btn:hover:after{
+  width: 100%;
+}
+.my-btn2{
+  position: relative;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid var(--main-color);
+  padding: 12px 30px;
+  transition: .3s ease;
+  background: var(--main-color);
+}
+.my-btn2:hover{
+  background: transparent;
+  color: #fff;
+}
+.Hypnosis_outer__2NYvM, .Hypnosis_middle__7foMF, .Hypnosis_inner__3ZRFN {
+  border: 3px solid transparent;
+  border-top-color: var(--main-color) !important;
+  border-right-color: var(--main-color) !important;
+}

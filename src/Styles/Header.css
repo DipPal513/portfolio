@@ -23,7 +23,7 @@
   background: #212529;
 }
 .canvas-menu .nav-link{
-    color: rgb(183, 51, 97) !important;
+    color: var(--main-color) !important;
     transition: .3s;
 }
 .canvas-menu .nav-link:hover{

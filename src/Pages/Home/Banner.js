@@ -5,10 +5,16 @@ import resume from "../../images/resume.pdf";
 import Shake from "react-reveal/Shake";
 import Fade from "react-reveal/Fade";
 import ParticlesBg from 'particles-bg'
+
 const Banner = () => {
   return (
     <>
-    <ParticlesBg type="thick" bg={true} />
+    <ParticlesBg type="thick" bg={{
+          position: "absolute",
+          zIndex: -1,
+          width: "100%",
+          height:"100% !important"
+        }}  bg={true} />
       <div className="banner">
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -24,22 +30,23 @@ const Banner = () => {
                 <br />
                 Show me the code
               </h2>
-              <p className="text-capitalize text-white">
+              <p className="text-capitalize text-white mb-5">
                 i design and develop website and i love what i do
               </p>
               <a
                 href={resume}
-                className="resume-btn btn text-white text-uppercase"
+                className="my-btn"
               >
                 resume
               </a>
               <a
                 href="https://www.linkedin.com/in/dip-pal-107a8a203/"
                 target="_blank"
-                className="hire-btn btn-info ms-3 btn text-white text-uppercase"
+                className="my-btn2 ms-3"
               >
                 hire me
               </a>
+             
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
               <Fade right>

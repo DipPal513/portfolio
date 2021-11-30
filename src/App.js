@@ -18,7 +18,7 @@ function App() {
       setLoading(false)
   
 
-    },2000)
+    },1500)
   }, []);
   const loader = {
     position:"absolute",
@@ -32,8 +32,8 @@ function App() {
       {loading ?   
       <div style={ loader }><Hypnosis /></div>
     : 
- 
-      <BrowserRouter>
+    <BrowserRouter>
+   
         <Switch>
           <Route exact path="/">
             <Home />

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import '../../Styles/Header.css'
-
+import ThemeSwitcher from "react-theme-switcher";
 const Header = () => {
   return (
     <>
@@ -10,6 +10,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#">{"<"} D I P <span>{"/>"}</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
+          
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -31,6 +32,7 @@ const Header = () => {
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
+          {/* <ThemeSwitcher /> */}
       </Navbar>
     </>
   );

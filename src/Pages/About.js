@@ -19,7 +19,7 @@ const About = () => {
      
       <div className="about-me">
       <ParticlesBg
-        type=""
+        type="lines"
         bg={{
           position: "absolute",
           zIndex: -1,
@@ -146,11 +146,11 @@ const About = () => {
                 </div>
               </div>
               <div className="education">
-                <h4 className="text-capitalize mt-4 fw-bold">My education</h4>
+                <h4 className="text-capitalize mt-4 fw-bold" style={{color:"var(--main-color)"}}>My education</h4>
                 <h5 className="text ms-4">Learning HSC</h5>
               </div>
               <div className="interest">
-                <h4 className="text-capitalize mt-4 fw-bold mb-3">interests</h4>
+                <h4 className="text-capitalize mt-4 fw-bold mb-3" style={{color:'var(--main-color)'}}>interests</h4>
 
                 <div className="info-single d-flex">
                   {/* <MdArrowForwardIos className="info-logo me-3" /> */}

@@ -10,9 +10,9 @@
     background: var(--main-color) !important;
 }
 .mern{
-    background: green;
+    background: var(--main-color);
     color: #fff;
     padding: 5px 10px;
-    letter-spacing: 1px;
-    border-radius: 5px;
+    letter-spacing: 5px;
+    
 }

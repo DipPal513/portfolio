@@ -65,20 +65,20 @@ const Details = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-8">
               <h1 className='text-uppercase text-center mt-5'>{info.name}</h1>
-              <p className='mt-4 text-info'>{info.description}</p>
-               <a className='text-capitalize text-white fw-bold'href={info.sourceFront} target="_blank">Source Code</a><br />
-               <a className='text-capitalize text-white fw-bold'href={info.LiveLink} target="_blank">Live Link</a>
+              <p className='mt-4 text-info px-3'>{info.description}</p>
+               <a className='text-capitalize px-3 text-white fw-bold'href={info.sourceFront} target="_blank">Source Code</a><br />
+               <a className='text-capitalize px-3 text-white fw-bold'href={info.LiveLink} target="_blank">Live Link</a>
               <div className="row mt-5">
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 px-3 mt-4">
                       <img src={info.imgOne} className='img-fluid' alt="" />
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 px-3 mt-4">
                       <img src={info.imgTwo} className='img-fluid' alt="" />
                   </div>
-                  <div className="col-lg-6 mt-4">
+                  <div className="col-lg-6 mt-4 px-3">
                       <img src={info.imgThree} className='img-fluid' alt="" />
                   </div>
-                  <div className="col-lg-6 mt-4">
+                  <div className="col-lg-6 mt-4 px-3">
                       <img src={info.imgFour} className='img-fluid' alt="" />
                   </div>
               </div>

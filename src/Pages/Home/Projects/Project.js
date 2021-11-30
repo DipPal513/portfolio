@@ -18,16 +18,16 @@ const Project = ({ info }) => {
             and neat and clean.
           </Card.Text>
           <a
-            className="btn btn-sm btn-danger text-white"
-            style={{ background: "rgb(183, 51, 97) !important," }}
+            className="my-btn"
+            style={{ background: "rgb(183, 51, 97) !important",padding:"5px 15px" }}
             href={link}
             target="_blank"
           >
             Live Site
           </a>
           <Link
-            className="btn btn-sm btn-info text-white ms-3"
-            style={{ background: "rgb(183, 51, 97) !important," }}
+            className="my-btn2 ms-3"
+            style={{padding:"5px 12px"}}
             as={Link}
             to={`/details/${id}`}
           >

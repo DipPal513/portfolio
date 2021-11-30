@@ -53,10 +53,10 @@ const Contact = () => {
               contact <span style={{ color: "var(--main-color)" }}>me</span>
             </h2>
             <form action="https://formspree.io/f/xzbopvay" method="POST">
-              <div class="form-group">
+              <div className="form-group">
                 <input
                   type="name"
-                  class="form-control border-0"
+                  className="form-control border-0"
                   id="exampleInputEmail1"
                   style={{ background: "#000", color: "white" }}
                   aria-describedby="emailHelp"
@@ -66,10 +66,10 @@ const Contact = () => {
                   name='name'
                 />
               </div>
-              <div class="form-group mt-3">
+              <div className="form-group mt-3">
                 <input
                   type="email"
-                  class="form-control border-0"
+                  className="form-control border-0"
                   style={{ background: "#000", color: "white" }}
                   id="email"
                   name='email'
@@ -78,11 +78,11 @@ const Contact = () => {
                   required
                 />
               </div>
-              <div class="form-group mt-3">
+              <div className="form-group mt-3">
                 <textarea
                   cols={6}
                   rows={4}
-                  class="form-control border-0 outline-0"
+                  className="form-control border-0 outline-0"
                   style={{ background: "#000", color: "white" }}
                   id="exampleInputPassword1"
                   required
@@ -93,8 +93,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                class="btn mt-4"
-                style={{ background: "var(--main-color)", color: "#fff" }}
+                className="my-btn mt-4 bg-transparent"
                 disabled={state.submitting} 
               >
                 send message
