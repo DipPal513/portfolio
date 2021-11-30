@@ -48,7 +48,7 @@ const Banner = () => {
               </a>
              
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
+            <div className="col-lg-6 col-md-6 col-sm-12 mt-4">
               <Fade right>
               <img src={Programmer} className="w-100 banner-img" alt="" />
               </Fade>
