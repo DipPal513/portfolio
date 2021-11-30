@@ -7,6 +7,9 @@ body {
   color: white !important;
 
 }
+:root{
+  --main-color:#b73361 !important;
+}
 *{
   font-family:'Nunito Sans', sans-serif !important;
 }

@@ -1,13 +1,13 @@
 .banner{
     padding: 100px 0;
-    background: #212529;
+    /* background: #212529; */
 }
 .banner h1,h2,h3,h4,h5,p,button{
     font-family: 'Raleway', sans-serif !important;
 
 }
 .resume-btn{
-    background: #b73361 !important;
+    background: var(--main-color) !important;
 }
 .mern{
     background: green;

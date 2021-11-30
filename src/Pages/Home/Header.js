@@ -6,9 +6,9 @@ import '../../Styles/Header.css'
 const Header = () => {
   return (
     <>
-      <Navbar bg="dark" variant='dark' expand={false} className='pt-4'>
+      <Navbar bg="transparent" variant='dark' expand={false} className='pt-4'>
         <Container>
-          <Navbar.Brand href="#">D I P</Navbar.Brand>
+          <Navbar.Brand href="#">{"<"} D I P <span>{"/>"}</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
@@ -17,13 +17,16 @@ const Header = () => {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel">
-                Offcanvas
+                
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Link</Nav.Link>
+              <Nav className="justify-content-end flex-grow-1 pe-3 canvas-menu">
+                <Nav.Link href="#action1" as={Link} to='/'>Home</Nav.Link>
+                <Nav.Link href="#action2" as={Link} to='/about'>About</Nav.Link>
+                <Nav.Link href="#action2" as={Link} to='/blog'>Blog</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

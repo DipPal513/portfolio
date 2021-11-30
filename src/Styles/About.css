@@ -1,0 +1,8 @@
+.about-me{
+    /* padding: 60px 0; */
+    max-height: 100%;
+}
+.info-single .info-logo{
+    color: var(--main-color);
+    font-size: 25px;
+}
