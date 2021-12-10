@@ -3,7 +3,7 @@ body {
   font-family: 'Nunito Sans', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #212529 !important;
+  background: #000000 !important;
   color: white !important;
 
 }
@@ -63,4 +63,32 @@ body {
   border: 3px solid transparent;
   border-top-color: var(--main-color) !important;
   border-right-color: var(--main-color) !important;
+}
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+  transition: .3s;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(187, 187, 187);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+/* selection */
+::selection {
+  color: #000;
+  background: var(--main-color);
 }

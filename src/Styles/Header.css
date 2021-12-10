@@ -22,10 +22,18 @@
   transform: none;
   background: #212529;
 }
-.canvas-menu .nav-link{
-    color: var(--main-color) !important;
-    transition: .3s;
+.canvas-menu .nav-link {
+  color: #000;
+  transition: .3s;
+  background: var(--main-color);
+  padding: 9px 18px !important;
+  margin: 5px 0px;
 }
 .canvas-menu .nav-link:hover{
     transform: translateX(20px);
 }
+/* .offcanvas-header .btn-close{
+  position: relative;
+  background:url(https://images.cdn4.stockunlimited.net/preview1300/close-button_1872230.jpg);
+
+} */

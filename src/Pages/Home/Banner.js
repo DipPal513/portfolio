@@ -13,7 +13,7 @@ const Banner = () => {
           position: "absolute",
           zIndex: -1,
           width: "100%",
-          height:"100% !important"
+          height:"90% !important"
         }}  bg={true} />
       <div className="banner">
         <div className="container">

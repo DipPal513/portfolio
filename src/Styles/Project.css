@@ -2,3 +2,17 @@
     transition: .3s ease-in-out;
     transform: scale(1.2);
 }
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* .badges > div{
+    color: var(--main-color);
+    background: rgb(0, 0, 0);
+    padding: 4px 6px;
+    margin: 0 2px;
+    transform: skewX(10deg);
+    
+
+} */
