@@ -1,41 +1,29 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
+import { useHistory } from "react-router-dom";
 const Blog = () => {
+  const history = useHistory();
+  function handleBlogDetails(){
+    history.push("/blog/blogdetails")
+  }
   return (
-    <div className="col">
-      <Card style={{ background: "#333" }} className="h-100">
-        <Card.Img variant="top" src={image} />
-        <Card.Body>
-          <Card.Title className="text-capitalize">{name}</Card.Title>
-          <Card.Text>
-            This site is build with react js.It's fully responsive,user friendly
-            and neat and clean.
-          </Card.Text>
-          <a
-            className="btn btn-sm btn-danger text-white"
-            style={{ background: "rgb(183, 51, 97) !important," }}
-            href={link}
-            target="_blank"
-          >
-            Live Site
+    <div className="col-lg-4">
+      <div className="card bg-dark">
+        <img
+          className="card-img-top"
+          src="https://dyclassroom.com/image/topic/jwt/logo.png"
+          alt="Card image cap"
+        />
+        <div className="card-body">
+          <h5 className="card-title">what is JWT</h5>
+          <p className="card-text">
+          JSON Web Token (JWT) is an open standard 
+          </p>
+          <a className="btn btn-info" onClick={handleBlogDetails}>
+            Read More
           </a>
-          <a
-            className="btn btn-sm btn-info text-white ms-3"
-            style={{ background: "rgb(183, 51, 97) !important," }}
-            href="#"
-            as={Link}
-          >
-            Details
-          </a>
-          <br />
-          <br />
-          <Badge bg="info">react</Badge>
-          <Badge bg="success" className="mx-3">
-            mongoDB
-          </Badge>
-          <Badge bg="dark">Node JS</Badge>
-        </Card.Body>
-      </Card>
+        </div>
+      </div>
     </div>
   );
 };

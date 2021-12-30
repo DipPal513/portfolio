@@ -13,6 +13,9 @@ body {
 *{
   font-family:'Nunito Sans', sans-serif !important;
 }
+.particles-bg-canvas-self{
+  height: 90% !important;
+}
 /* code {
   font-family: soaurce-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

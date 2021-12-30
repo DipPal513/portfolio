@@ -11,7 +11,7 @@ const Project = ({ info }) => {
     <Fade bottom>
       <div className="col-lg-4 col-md-6 col-sm-12 mt-5">
         <Card
-          style={{ background: "#6c757d" }}
+          style={{ background: 'rgb(0 10 18)'}}
           className="h-100 overflow-hidden"
         >
           <div className="img-div overflow-hidden">

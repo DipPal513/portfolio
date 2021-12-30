@@ -152,15 +152,15 @@ const About = () => {
               <div className="interest">
                 <h4 className="text-capitalize mt-4 fw-bold mb-3" style={{color:'var(--main-color)'}}>interests</h4>
 
-                <div className="info-single d-flex">
+                <div className="info-single d-flex ms-4">
                   {/* <MdArrowForwardIos className="info-logo me-3" /> */}
                   <h5 className="text-capitalize me-2 ">art</h5>
                 </div>
-                <div className="info-single d-flex">
+                <div className="info-single d-flex ms-4">
                   {/* <MdArrowForwardIos className="info-logo me-3" /> */}
                   <h5 className="text-capitalize me-2 ">Photography</h5>
                 </div>
-                <div className="info-single d-flex">
+                <div className="info-single d-flex ms-4">
                   {/* <MdArrowForwardIos className="info-logo me-3" /> */}
                   <h5 className="text-capitalize me-2 ">Gardening</h5>
                 </div>

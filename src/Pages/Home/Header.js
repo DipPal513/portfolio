@@ -26,8 +26,8 @@ const Header = () => {
                 <Nav.Link href="#action1" as={Link} to='/'>Home</Nav.Link>
                 <Nav.Link href="#action2" as={Link} to='/about'>About</Nav.Link>
                 <Nav.Link href="#action2" as={Link} to='/blog'>Blog</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-                <Nav.Link href="#projects">Projects</Nav.Link>
+                <Nav.Link href="#contact" as={Link} to="/contact">Contact</Nav.Link>
+                <Nav.Link href="#projects" as={Link} to="/projects">Projects</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

@@ -1,7 +1,7 @@
 import Home from "./Pages/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Particle from "./Pages/Particle/Particle";
+
 import BarWave from "react-cssfx-loading/lib/BarWave";
 import { Hypnosis } from "react-cssfx-loading/lib";
 import { useEffect, useState } from "react";
@@ -10,6 +10,7 @@ import About from "./Pages/About";
 import Blogs from "./Pages/Home/Blogs/Blogs";
 import ScrollToTop from "react-scroll-up";
 import { FaArrowUp } from 'react-icons/fa';
+import BlogDetails from "./Pages/Home/Blogs/BlogDetails";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -54,6 +55,9 @@ function App() {
             <Route exact path="/blog">
               <Blogs />
             </Route>
+            <Route exact path="/blog/blogdetails">
+              <BlogDetails />
+            </Route>
           </Switch>
         </BrowserRouter>
       )}
@@ -62,3 +66,4 @@ function App() {
 }
 
 export default App;
+

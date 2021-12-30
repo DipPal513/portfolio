@@ -1,11 +1,13 @@
 import React from 'react'
+import Blog from './Blog'
 
 const Blogs = () => {
     return (
         <div className='blogs'>
             <div className='container'>
+            <h1 className='text-center text-uppercase my-5'>my blog</h1>
                 <div className='row'>
-                    <h1>Blog coming soon....</h1>
+                    <Blog />
                 </div>
             </div>
         </div>

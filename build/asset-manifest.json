@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1aac3cc7.css",
+    "main.js": "/static/js/main.91a9b72e.js",
+    "static/js/787.69d52779.chunk.js": "/static/js/787.69d52779.chunk.js",
+    "static/media/gym-1.png": "/static/media/gym-1.6501caec4757a01b31e0.png",
+    "static/media/jewelry-1.png": "/static/media/jewelry-1.bddc3023f77f2d2acd94.png",
+    "static/media/gym-2.png": "/static/media/gym-2.d55c16a4d53b41fb440f.png",
+    "static/media/furniture-1.png": "/static/media/furniture-1.1bb0756066b35169d12b.png",
+    "static/media/furniture-2.png": "/static/media/furniture-2.595838c26adfbcddf12f.png",
+    "static/media/jewelry-2.png": "/static/media/jewelry-2.e29050409b7fabefd3d4.png",
+    "static/media/furniture-3.png": "/static/media/furniture-3.e79e00c8db1b17ec0054.png",
+    "static/media/jewelry-3.png": "/static/media/jewelry-3.d5f54d06d10777b0c015.png",
+    "static/media/gym-3.png": "/static/media/gym-3.6bf71cdca51a585e0950.png",
+    "static/media/gym-4.png": "/static/media/gym-4.dfac6b641325a0291230.png",
+    "static/media/resume.pdf": "/static/media/resume.7bdd8939944ed4249298.pdf",
+    "static/media/furniture-4.png": "/static/media/furniture-4.faf7fd00fb3fefd9430e.png",
+    "static/media/jewelry-4.png": "/static/media/jewelry-4.a1f8636f167154b5b6a6.png",
+    "static/media/undraw_firmware_re_fgdy.svg": "/static/media/undraw_firmware_re_fgdy.66594c8e38c3c37c7e77e29f9aff6a8a.svg",
+    "static/media/developer.svg": "/static/media/developer.03318f66e866396da722f4bd51cd323f.svg",
+    "index.html": "/index.html",
+    "main.1aac3cc7.css.map": "/static/css/main.1aac3cc7.css.map",
+    "main.91a9b72e.js.map": "/static/js/main.91a9b72e.js.map",
+    "787.69d52779.chunk.js.map": "/static/js/787.69d52779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aac3cc7.css",
+    "static/js/main.91a9b72e.js"
+  ]
+}

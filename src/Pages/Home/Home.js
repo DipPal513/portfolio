@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer'
 import Banner from './Banner'
 import Blogs from './Blogs/Blogs'
 import Contact from './Contact'
@@ -12,6 +13,7 @@ const Home = () => {
             <Banner />
             <Projects />
             <Contact />
+            <Footer />
         </>
     )
 }
